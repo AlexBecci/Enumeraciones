@@ -1,4 +1,3 @@
-
 package enumeracion;
 
 public enum Contintentes {
@@ -8,19 +7,17 @@ public enum Contintentes {
     ASIA(44),
     AMERICA(34),
     OCEANIA(14);
-    
-    
+
     //DEFINIDOS UN ATRIBUTO PRIVADO FINAL DE TIPO ENTERO 
     private final int paises;
-    
+
     //DEFINIMOS UN CONSTRUCTOR
     //ESTO SE ASOCIA CON LOS ELEMENTOS DE LA ENUMERACION
-    Contintentes(int paises)
-    {
+    Contintentes(int paises) {
         this.paises = paises;
     }
-    
-    public int getPaises(){
+
+    public int getPaises() {
         return this.paises;
     }
 }

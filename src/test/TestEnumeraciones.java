@@ -8,15 +8,14 @@ public class TestEnumeraciones {
     public static void main(String[] args) {
 
         //Al ser staticos publicos y finales podemos acceder a estos de la siguiente manera
-       // System.out.println("Dia uno de la semana: " + Dias.LUNES);
-       // indicarDiaSemana(Dias.MARTES);
-       
+        // System.out.println("Dia uno de la semana: " + Dias.LUNES);
+        indicarDiaSemana(Dias.MARTES);
         System.out.println("ENUMERACION DE CONTINENTES");
-        System.out.println("Continente Nro 4: "+ Contintentes.AMERICA);
-        System.out.println("Paises en el 4to continente: " 
+        System.out.println("Continente Nro 4: " + Contintentes.AMERICA);
+        System.out.println("Paises en el 4to continente: "
                 + Contintentes.AMERICA.getPaises());
-        System.out.println("Continente Nro 1: "+ Contintentes.AFRICA);
-        System.out.println("Paises en el 1er continente: " 
+        System.out.println("Continente Nro 1: " + Contintentes.AFRICA);
+        System.out.println("Paises en el 1er continente: "
                 + Contintentes.AFRICA.getPaises());
     }
 
